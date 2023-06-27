@@ -1,0 +1,7 @@
+DStore
+venv
+venv/
+venv*
+venv/*
+.env
+.DS_Store

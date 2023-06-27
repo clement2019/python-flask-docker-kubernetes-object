@@ -1,0 +1,13 @@
+version: '3.9'
+services:
+  web:
+    build: .
+    ports:
+    - "80:5004"
+    image: good777lord/flaskapp1
+    restart: always
+    networks:
+    - webnet
+
+networks:
+  webnet:      
